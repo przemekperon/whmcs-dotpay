@@ -1,5 +1,5 @@
-DotPay.pl Payment Gateway dla WHMCS v1.0
-Autor: Przemek Peron <huan@huan.pl>
+DotPay.pl Payment Gateway dla WHMCS v1.2
+Autor: Przemek Peron <huan@huan.pl>, zaktualiza³ lolz3r
 Website: http://www.huan.pl
 
 ----------------------------------------
@@ -37,6 +37,5 @@ DODATKOWE INFORMACJE
 
 
 Skrypt zostal napisany z mysla o polskich uzytkownikach, wiec nie umieszczalem
-w nim obslugi innych walut. Testowany byl z WHMCS v4.0 - v4.3, a czy bedzie dzialac
-na wersji, ktora wlasnie posiadasz? Bardzo mozliwe, ale nie daje zadnych gwarancji ;)
-
+w nim obslugi innych walut (zaleca siê w admin panelu w³¹czyæ opcjê "convert to currency for processing" i wybraæ PLN. 
+Testowany byl w zaktualizowanej wersji z WHMCS 7.3.0 i powinien dzia³aæ z wersjami WHMCS 6 i 7.

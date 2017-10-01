@@ -38,8 +38,9 @@ function dotpay_link($params) {
 	$currency = $params['currency'];
 
 	# Enter your code submit to the gateway...
-
-	$code = '<form method="POST" action="https://ssl.dotpay.pl">
+    $gateway_address = 'https://ssl.dotpay.pl'; //real payments
+    //$gateway_address = 'https://ssl.dotpay.pl/test_payment/'; //test payments
+	$code = '<form method="POST" action="'.$gateway_address.'">
 <input type="hidden" name="id" value="'.$gatewayusername.'" />
 <input type="hidden" name="firstname" value="'.$firstname.'" />
 <input type="hidden" name="lastname" value="'.$lastname.'" />
